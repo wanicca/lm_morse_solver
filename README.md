@@ -52,4 +52,4 @@ You can modify these scripts for new ciphertext. But please note that you may ge
 
 # More Information
 
-I write a note for this question on [Zhihu](https://zhuanlan.zhihu.com/p/37971592).
+I wrote a note for this question on [Zhihu](https://zhuanlan.zhihu.com/p/37971592).
