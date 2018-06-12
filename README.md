@@ -40,7 +40,7 @@ Here are just the scripts to solve the problem, so the source code is not well o
 
 - q2_1 : using char-level model to solve the problem, but it failed.
 - q2_2 : a interactive program to solve the problem by detecting words which are matched in the prefix of what is left in the ciphertext and displaying them to you so that you can choose the next one.
-- q2_4 : a word-level model to automatedly solve the problem, it work well.
+- q2_4 : a word-level model to automatically solve the problem, and it works well.
 - q2_5 : a interactive program to solve the problem based on q2_4 and q2_2, and you can input the number of the most possible sequence you think to influence the search program ,or just press enter to make the program act as q2_4 , or input 'x' to go back the recent intervention point.
 
 The result of q2_4:
