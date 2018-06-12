@@ -3,7 +3,7 @@ A solution based on language model to decipher morse cyphertext without spaces ,
 
 
 
-It is original to solve a question posted by [DeeCamp (a public welfare camp for students interested in AI)](https://challenger.ai/deecamp_2018_reg) in their online examination. But I think the solution given here is easy to be applied in other similar problems. I have not seen others used the neural language model to improve the search when deciphering morse without spaces. Here is the question:
+At first I just wanted to solve a question posted by [DeeCamp (a public welfare camp for students interested in AI)](https://challenger.ai/deecamp_2018_reg) in their online examination. But I think the solution given here is easy to be applied in other similar problems. I have not seen others used the neural language model to improve the search procedure when deciphering morse without spaces. Here is the original question:
 
 
 
@@ -36,19 +36,19 @@ To solve the problem, I try using beam search with the help of neural language m
 
 # Using
 
-Here are just the script to solve the problem, so the codes are not well organized and just for study.  You can run python q2_1 to q2_5. they are different solutions that I tried to solve the problem.
+Here are just the scripts to solve the problem, so the source code is not well organized and just for study.  You can run `python q2_1` to `python q2_5`. They are different solutions that I tried to solve the problem.
 
 - q2_1 : using char-level model to solve the problem, but it failed.
 - q2_2 : a interactive program to solve the problem by detecting words which are matched in the prefix of what is left in the ciphertext and displaying them to you so that you can choose the next one.
 - q2_4 : a word-level model to automatedly solve the problem, it work well.
-- q2_5 : a interactive program to solve the problem based on q2_4, and you can input the number of the most possible sequence you think to influence the search program ,or just press enter to let the program act as q2_4 , or input 'x' to go back the recent intervention point.
+- q2_5 : a interactive program to solve the problem based on q2_4 and q2_2, and you can input the number of the most possible sequence you think to influence the search program ,or just press enter to make the program act as q2_4 , or input 'x' to go back the recent intervention point.
 
 The result of q2_4:
 
 >Alice was beginning to get very tired of sitting by her sister on the bank and of having nothing to do once or twice she had peeped into the book her sister was reading but it had no pictures or conversations in it and what is the use of a book thought Alice without pictures or conversation 
 >
 
-You can modify these script for new ciphertext. But please note that you may get bad results when inputing a text with too many new words, because I just train the tiny language model on my slow cpu with a very small vocabulary generated from Alice in wonderland . I recommend training a newer and more powerful language model by yourself.
+You can modify these scripts for new ciphertext. But please note that you may get bad results when inputing a text with too many new words, because I just trained the tiny language model on my slow cpu with a very small vocabulary generated from _Alice in wonderland_ . I recommend training a newer and more powerful language model by yourself.
 
 # More Information
 
